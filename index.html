@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      #loader{
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box;
+        background: #000 url("images/load.gif") no-repeat center center;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 300000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loader"></div>
+    <nav class="navbar navbar-expand-lg bg-opacity-50 navbar-dark fixed-top Shadow NavScroll px-0">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-normal fs-4" href="#">Boomerang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#demo">Demo</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class=" container-fluid mb-5" id="Home">
+        <div class=" row justify-content-center align-items-center min-vh-100">
+          <div class=" col-12">
+            <div class=" text-center">
+              <h1 class=" display-3 fw-bold text-white">
+                Your customer will love You
+                <br>
+                one minute from now
+              </h1>
+              <p class=" my-4 text-white">
+                See how your users experience your website in realtime or view
+                <br>
+                trends to see any changes in performance over time.
+              </p>
+              <div>
+                <button class=" btn btn-lg btn-light text-uppercase">
+                  Get Started
+                </button>
+                <button class=" btn btn-lg btn-outline-light text-uppercase">
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class=" border-bottom border-light">
+      <div class=" container">
+        <div class=" row justify-content-center mb-5 marginTop">
+          <div class="col-md-12 col-6">
+            <div class=" text-center">
+              <h1 class=" display-3 ">
+                Your Site, Your Way.
+              </h1>
+              <p class="my-4 text-black-50">
+                See how your users experience your website in realtime or view
+                <br>
+                trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row min-vh-100 justify-content-center mb-5">
+          <div class=" col-12">
+            <div>
+              <img src="images/four.png" alt="" width="100%">
+            </div>
+          </div>
+          <div class=" col-12 col-lg-3">
+            <div class=" text-center">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-columns text-primary"></i>
+              </h1>
+              <p>Visual Composer</p>
+              <p class=" text-black-50">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-3">
+            <div class=" text-center">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-trophy text-primary"></i>
+              </h1>
+              <p>Revolution Slider</p>
+              <p class=" text-black-50">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-3">
+            <div class=" text-center">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-bookmarks text-primary"></i>
+              </h1>
+              <p>User experience</p>
+              <p class=" text-black-50">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-3">
+            <div class=" text-center">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-laptop text-primary"></i>
+              </h1>
+              <p>full responsive</p>
+              <p class=" text-black-50">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class=" container">
+        <div class=" row justify-content-center mb-5 marginTop">
+          <div class="col-md-12 col-6">
+            <div class=" text-center">
+              <h1 class=" display-3 ">
+                Digital Design..
+              </h1>
+              <p class="my-4 text-black-50">
+                See how your users experience your website in realtime or view
+                <br>
+                trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+            <div class=" text-center">
+              <a class=" text-decoration-none item-link text-black-50 fst-italic Active"  type="button" id="all">
+                All <span class=" ms-2 pe-none"> / </span>
+              </a>
+              <a class=" text-decoration-none item-link text-black-50 fst-italic" type="button" id="brand">
+                Branding<span class=" ms-2 pe-none"> / </span>
+              </a>
+              <a class=" text-decoration-none item-link text-black-50 fst-italic" type="button" id="digital">
+                Digital<span class=" ms-2 pe-none"> / </span>
+              </a>
+              <a class=" text-decoration-none item-link text-black-50 fst-italic" type="button" id="packing">
+                packing 
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row min-vh-100 mt-5 g-2">
+          <div class=" col-12 col-lg-4">
+            <div class=" product animate__animated animate__zoomIn Brand Digital Packing overflow-hidden">
+              <img src="images/four.jpg" alt="" class=" w-100 product-img">
+              <div class=" product-description text-center">
+                <p class=" text-black">White Selvete</p>
+                <p class=" text-black-50">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class=" product animate__animated overflow-hidden animate__zoomIn Brand Digital Packing">
+              <img src="images/five.jpg" alt="" class=" w-100 product-img">
+              <div class=" product-description text-center">
+                <p class=" text-black">White Selvete</p>
+                <p class=" text-black-50">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class=" product animate__animated overflow-hidden animate__zoomIn Digital Packing">
+              <img src="images/six.jpg" alt="" class=" w-100 product-img">
+              <div class=" product-description text-center">
+                <p class=" text-black">White Selvete</p>
+                <p class=" text-black-50">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class=" product animate__animated overflow-hidden animate__zoomIn Packing">
+              <img src="images/seven.jpg" alt="" class=" w-100 product-img">
+              <div class=" product-description text-center">
+                <p class=" text-black">White Selvete</p>
+                <p class=" text-black-50">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class=" product animate__animated overflow-hidden animate__zoomIn">
+              <img src="images/eight.jpg" alt="" class=" w-100 product-img">
+              <div class=" product-description text-center">
+                <p class=" text-black">White Selvete</p>
+                <p class=" text-black-50">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class=" product animate__animated overflow-hidden animate__zoomIn">
+              <img src="images/nine.jpg" alt="" class=" w-100 product-img">
+              <div class=" product-description text-center">
+                <p class=" text-black">White Selvete</p>
+                <p class=" text-black-50">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" container">
+        <div class="row marginTop g-2 marginBottom">
+          <div class="col-4">
+            <div class="">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-columns text-primary"></i>
+              </h1>
+              <p>Visual Composer</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-book text-primary"></i>
+              </h1>
+              <p>Revolution Slider</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-box text-primary"></i>
+              </h1>
+              <p>User Experience</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class=" mt-5">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-music-note text-primary"></i>
+              </h1>
+              <p>Great support</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class=" mt-5">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-laptop text-primary"></i>
+              </h1>
+              <p>Full responsive</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class=" mt-5">
+              <h1 class=" effect-icon">
+                <i class=" bi bi-pencil text-primary"></i>
+              </h1>
+              <p>Trendy Design</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="service" class=" bg-light">
+      <div class=" container">
+        <div class=" row min-vh-100 justify-content-center g-5">
+          <div class=" col-12 col-lg-6">
+            <div class=" marginTop">
+              <img src="images/ipad.png" alt="" class=" w-100">
+            </div>
+          </div>
+          <div class=" col-12 col-lg-6">
+            <div class="row marginTop200 ms-5">
+              <div class="col-12">
+                <div class=" my-5">
+                  <h1>
+                    Flexible & Lightweight.
+                  </h1>
+                  <p class=" text-black-50 w-75">
+                    Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class=" d-flex mt-5">
+                  <div class=" me-3">
+                    <h1 class=" effect-icon">
+                      <i class=" bi bi-columns text-primary"></i>
+                    </h1>
+                </div>
+                <div>
+                  <p>Visual Composer</p>
+                  <p class=" text-black-50 w-75">
+                    Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.
+                  </p>
+                </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class=" d-flex mt-4">
+                  <div class=" me-3">
+                    <h1 class=" effect-icon">
+                      <i class=" bi bi-trophy text-primary"></i>
+                    </h1>
+                </div>
+                <div>
+                  <p>Revolution Slider</p>
+                  <p class=" text-black-50 w-75">
+                    Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.
+                  </p>
+                </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class=" d-flex mt-4">
+                  <div class=" me-3">
+                    <h1 class=" effect-icon">
+                      <i class=" bi bi-journal-bookmark text-primary"></i>
+                    </h1>
+                </div>
+                <div>
+                  <p>User Experience</p>
+                  <p class=" text-black-50 w-75">
+                    Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="shop">
+      <div class=" container">
+        <div class=" row justify-content-center mb-5 marginTop">
+          <div class="col-md-12 col-6">
+            <div class=" text-center">
+              <h1 class=" display-3 ">
+                Creative People
+              </h1>
+              <p class="my-4 text-black-50">
+                See how your users experience your website in realtime or view
+                <br>
+                trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4 justify-content-center" id="ShopRow">
+        </div>
+        <div class=" my-5 text-center">
+          <button class=" btn btn-lg btn-outline-primary text-uppercase">About Us</buttton>
+        </div>
+      </div>
+    </section>
+    <section class=" bg-light">
+      <div id="demo">
+        <div class=" container-fluid mb-5" id="Demo">
+          <div class=" row justify-content-center align-items-center min-vh-100 marginTop">
+            <div class=" col-12 px-0">
+              <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <h1 class=" display-3 fw-bold text-white">
+                      Your customer will love You
+                      <br>
+                      one minute from now
+                    </h1>
+                    <p class=" my-4 text-white">
+                      See how your users experience your website in realtime or view
+                      <br>
+                      trends to see any changes in performance over time.
+                    </p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <h1 class=" display-3 fw-bold text-white">
+                      Your customer will love You
+                      <br>
+                      one minute from now
+                    </h1>
+                    <p class=" my-4 text-white">
+                      See how your users experience your website in realtime or view
+                      <br>
+                      trends to see any changes in performance over time.
+                    </p>
+                  </div>
+                  <div class="carousel-item text-center">
+                      <h1 class=" display-3 fw-bold text-white">
+                      Your customer will love You
+                      <br>
+                      one minute from now
+                    </h1>
+                    <p class=" my-4 text-white">
+                      See how your users experience your website in realtime or view
+                      <br>
+                      trends to see any changes in performance over time.
+                    </p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" container">
+        <div class=" row justify-content-center min-vh-100 rounded g-0 MarginReverseTop">
+          <div class=" col-lg-4">
+            <div class=" bg-white text-center p-3 shadow-sm">
+              <div class=" border-bottom">
+                <h1 class=" pt-4">
+                  <i class=" bi bi-pen"></i>
+                </h1>
+                <p class=" text-uppercase mt-4 mb-5">starter</p>
+              </div>
+              <div class=" text-center">
+                <h1 class=" fw-bold display-2 mt-5 mb-4">Free</h1>
+                <h5 class=" text-black-50 mb-5">
+                  Map where your photos
+                  <br>
+                  were taken and discover local
+                  <br>
+                  points of interest.
+                </h5>
+                <button class=" btn btn-lg btn-primary mb-4">Download</button>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4">
+            <div class=" bg-white text-center p-3 shadow-sm">
+              <div class=" border-bottom">
+                <h1 class=" pt-4">
+                  <i class=" bi bi-pin-angle"></i>
+                </h1>
+                <p class=" text-uppercase mt-4 mb-5">STANDARD</p>
+              </div>
+              <div class=" text-center">
+                <h1 class=" fw-bold display-2 mt-5 mb-4">$45</h1>
+                <h5 class=" text-black-50 mb-5">
+                  Map where your photos
+                  <br>
+                  were taken and discover local
+                  <br>
+                  points of interest.
+                </h5>
+                <button class=" btn btn-lg btn-primary mb-4">Download</button>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4">
+            <div class=" bg-white text-center p-3 shadow-sm">
+              <div class=" border-bottom">
+                <h1 class=" pt-4">
+                  <i class=" bi bi-brush"></i>
+                </h1>
+                <p class=" text-uppercase mt-4 mb-5">PROFESSIONAL</p>
+              </div>
+              <div class=" text-center">
+                <h1 class=" fw-bold display-2 mt-5 mb-4">$69</h1>
+                <h5 class=" text-black-50 mb-5">
+                  Map where your photos
+                  <br>
+                  were taken and discover local
+                  <br>
+                  points of interest.
+                </h5>
+                <button class=" btn btn-lg btn-primary mb-4">Download</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog">
+      <div class=" container">
+        <div class=" row justify-content-center mb-5 marginTop">
+          <div class="col-md-12 col-6">
+            <div class=" text-center">
+              <h1 class=" display-3 ">
+                Latest articles.
+              </h1>
+              <p class="my-4 text-black-50">
+                See how your users experience your website in realtime or view
+                <br>
+                trends to see any changes in performance over time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class=" col-12 col-lg-4">
+            <div class="">
+              <div class=" mb-5">
+                <img src="images/7.jpg" alt="" class=" w-100 rounded">
+              </div>
+              <p class=" fs-5">Minimalist Chandelier</p>
+              <p class=" text-black-50 fs-6">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class="">
+              <div class=" mb-5">
+                <img src="images/8.jpg" alt="" class=" w-100 rounded">
+              </div>
+              <p class=" fs-5">Revolution Slider</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+          <div class=" col-12 col-lg-4">
+            <div class="">
+              <div class=" mb-5">
+                <img src="images/9.jpg" alt="" class=" w-100 rounded">
+              </div>
+              <p class=" fs-5">Standard Shape</p>
+              <p class=" text-black-50">
+                See how your users experience your website in realtime or view trends to see any changes in performance over time.
+              </p>
+              <p class=" text-primary fw-light">read more</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" bg-custom" id="Portfilio">
+       <div class="container">
+        <div class="row justify-content-center P-top marginTop">
+          <div class=" col-lg-3">
+            <div class=" text-center">
+              <h1 class=" text-primary">
+                <i class=" bi bi-lightning"></i>
+              </h1>
+              <h1 class=" display-4 fw-normal counter">
+                1,538
+              </h1>
+              <p class=" text-black-50 fs-5">Happy Clients</p>
+            </div>
+          </div>
+          <div class=" col-lg-3">
+            <div class=" text-center">
+              <h1 class=" text-primary">
+                <i class=" bi bi-controller"></i>
+              </h1>
+              <h1 class=" display-4 fw-normal counter">
+                2,124
+              </h1>
+              <p class=" text-black-50 fs-5">Total downloads</p>
+            </div>
+          </div>
+          <div class=" col-lg-3">
+            <div class=" text-center">
+              <h1 class=" text-primary">
+                <i class=" bi bi-fire"></i>
+              </h1>
+              <h1 class=" display-4 fw-normal counter">
+                3,128
+              </h1>
+              <p class=" text-black-50 fs-5">Awards won</p>
+            </div>
+          </div>
+          <div class=" col-lg-3">
+            <div class=" text-center">
+              <h1 class=" text-primary">
+                <i class=" bi bi-gem"></i>
+              </h1>
+              <h1 class=" display-4 fw-normal counter">
+                9,534
+              </h1>
+              <p class=" text-black-50 fs-5">Theme users</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="portfilio-img">
+      </div>
+    </section>
+    <section id="footer" class=" Bg-Black">
+      <div class=" Border-bottom">
+        <div class=" container">
+          <div class="row py-5">
+            <div class=" col-lg-4">
+              <div class=" py-5">
+                <p class=" text-white mb-4">About us</p>
+                <p class=" text-white-50">
+                  Map where your photos were taken and discover local points of interest. Map where your photos.
+                </p>
+                <p class=" text-white-50 mb-1">
+                  Location: 12 London Avenue, Suite 18
+                </p>
+                <p class=" text-white-50 mb-1">
+                  E-mail: support@theme.com
+                </p>
+                <p class=" text-white-50 mb-1">
+                  Phone: 8 800 123 4567
+                </p>
+                <div class=" mt-4">
+                  <a class=" me-4 text-decoration-none">
+                    <i class=" bi bi-facebook text-white-50"></i>
+                  </a>
+                  <a class=" me-4 text-decoration-none">
+                    <i class=" bi bi-twitter text-white-50"></i>
+                  </a>
+                  <a class=" me-4 text-decoration-none">
+                    <i class=" bi bi-instagram text-white-50"></i>
+                  </a>
+                  <a class=" me-4 text-decoration-none">
+                    <i class=" bi bi-pinterest text-white-50"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-4">
+              <div class=" py-5 ms-4">
+                <p class=" text-white mb-4">RECENT POSTS</p>
+                <div class=" Border-bottom">
+                  <p class=" small Text-White-80 w-75 mb-1">
+                    Map where your photos were taken and discover local points.
+                  </p>
+                  <p class=" Text-White-80 small">May 8, 2018</p>
+                </div>
+                <div class=" Border-bottom pt-3">
+                  <p class=" small Text-White-80 w-75 mb-1">
+                    Map where your photos were taken and discover local points.
+                  </p>
+                  <p class=" Text-White-80 small">May 8, 2018</p>
+                </div>
+                <div class=" Border-bottom pt-3">
+                  <p class=" small Text-White-80 w-75 mb-1">
+                    Map where your photos were taken and discover local points.
+                  </p>
+                  <p class=" Text-White-80 small">May 8, 2018</p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-4">
+              <div class="row g-1 pt-5 ms-5">
+                <p class=" text-white text-uppercase">Portfilio</p>
+                <div class=" col-lg-4">
+                  <div>
+                    <img src="images/11.jpg" alt="" class=" w-100 rounded">
+                  </div>
+                </div>
+                <div class=" col-lg-4">
+                  <div>
+                    <img src="images/12.jpg" alt="" class=" w-100 rounded">
+                  </div>
+                </div>
+                <div class=" col-lg-4">
+                  <div>
+                    <img src="images/13.jpg" alt="" class=" w-100 rounded">
+                  </div>
+                </div>
+                <div class=" col-lg-4">
+                  <div>
+                    <img src="images/14.jpg" alt="" class=" w-100 rounded">
+                  </div>
+                </div>
+                <div class=" col-lg-4">
+                  <div>
+                    <img src="images/15.jpg" alt="" class=" w-100 rounded">
+                  </div>
+                </div>
+                <div class=" col-lg-4">
+                  <div>
+                    <img src="images/16.jpg" alt="" class=" w-100 rounded">
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class=" py-3">
+          <p class=" text-white-50 text-center mb-0 small">© 2018 Boomerang, All Rights Reserved. Design with love by <span class=" text-white">2theme</span></p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

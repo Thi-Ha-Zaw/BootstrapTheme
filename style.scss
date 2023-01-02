@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;900&display=swap');
+
+$font-family-sans-serif : 'Poppins', sans-serif;
+
+//navbar
+
+$navbar-padding-x : 15px;
+$navbar-padding-y : 15px;
+$navbar-nav-link-padding-x : 15px;
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+//utility
+
+.Bg-Black{
+    background-color: #222222;
+}
+
+.Text-White-80{
+    color: #cdcdcd;
+}
+
+.Border-bottom{
+    border-bottom: .5px solid rgb(74, 74, 74);
+}
+.MarginReverseTop{
+    margin-top: -150px;
+}
+
+.marginTop{
+    margin-top: 130px;
+}
+
+.marginTop200{
+    margin-top: 200px;
+}
+
+.marginBottom{
+    margin-bottom: 130px;
+}
+
+.NavScroll{
+    transition: 0.4s;
+}
+
+.Shadow{
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 4px;
+}
+
+.effect-icon{
+    transition: 0.4s;
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+
+.Active{
+    color: blue!important;
+}
+
+.bg-custom{
+    background-color: #f7f7f7 !important;
+}
+
+.P-top{
+    padding-top: 150px;
+}
+//home
+
+#home{
+    background-image : url("/images/17.jpg");
+    background-repeat : no-repeat;
+    background-position : center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#Home{
+    background-color : rgba(0,0,0,0.5)!important;
+}
+
+// demo
+
+#demo{
+    background-image : url("/images/18.jpg");
+    background-repeat : no-repeat;
+    background-position : center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#Demo{
+    background-color : rgba(0,0,0,0.5)!important;
+    
+}
+
+//portfilio
+
+#portfilio-img{
+    background-image: url("/images/10.jpg");
+    width: 100%;
+    height: 70vh;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+//products effect
+
+.product-img{
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 100ms;
+    &:hover{
+        transform: translateY(-130px);
+    } 
+}
+
+.product-description{
+    position: absolute;
+    z-index: 0;
+    bottom: 20px;
+    left: 30%;
+}
+
+//blog
+
+.Shop{
+    position: relative;
+    transition: 0.4s ease-in-out;
+    .shop-detail{
+        background : rgba(0,0,0,0.55);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .shop-social{
+        position: absolute;
+        right: 0 ;
+    } 
+    
+    .shop-text{
+        position: absolute;
+        bottom: 0 ;
+        
+    }
+
+    &:hover{
+        transform: translateY(-5px);
+        .shop-detail{
+            opacity: 1;
+        }
+
+    }
+
+}
+
+
+
+
+
